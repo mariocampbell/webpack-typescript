@@ -30,7 +30,7 @@ module.exports = {
                 test: /\.hbs$/, 
                 loader: 'handlebars-loader',
                 options: {
-                    helperDirs: path.resolve(__dirname, 'src', 'helpers-hbs'),
+                    helperDirs: path.resolve(__dirname, 'src', 'helpers'),
                     partialDirs: [
                         path.resolve(__dirname, 'src', 'views'),
                         path.resolve(__dirname, 'src', 'views', '00-atoms'),
